@@ -18,7 +18,7 @@ const data = [
 
 export function NewIsStoreNowSection() {
   return (
-    <Section className="!pr-0 py-[4.375rem] flex-row gap-[4.375rem]">
+    <Section className="!pr-0 py-[4.375rem] flex-row gap-[4.375rem] overflow-x-hidden">
       <div className="flex-shrink-0 w-[15.3125rem] flex flex-col">
         <Title className="mt-[1.875rem] mb-[5.5625rem]">New In Store Now</Title>
         <p className="text-primary leading-[170%] spa pb-12">
@@ -38,7 +38,7 @@ export function NewIsStoreNowSection() {
         {data.map((item) => (
           <div
             key={item.title}
-            className="relative rounded overflow-hidden w-[16.2625]"
+            className="relative rounded overflow-hidden w-[16.2625rem]"
           >
             <Image src={item.image} objectFit="cover" alt={item.title} />
             <span

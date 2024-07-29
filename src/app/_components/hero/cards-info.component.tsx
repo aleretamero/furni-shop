@@ -35,7 +35,7 @@ export function CardsInfo({ className }: CardsInfoProps) {
       className={cn(
         'px-[max(calc((100%_-_77.5rem)/2),0.5rem)]',
         'sm:px-[max(calc((100%_-_77.5rem)/2),1rem)]',
-        'sm:px-[max(calc((100%_-_77.5rem)/2),2rem)]',
+        'md:px-[max(calc((100%_-_77.5rem)/2),2rem)]',
         className
       )}
     >

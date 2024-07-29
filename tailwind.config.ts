@@ -12,8 +12,13 @@ const config: Config = {
         primary: '#23262F',
         secondary: '#286F6C',
       },
+      fontFamily: {
+        saira: ['var(--font-saira)'],
+        inter: ['var(--font-inter)'],
+      },
       backgroundImage: {
         hero: "url('/assets/images/bg-hero.webp')",
+        contact: "url('/assets/images/bg-contact.webp')",
       },
     },
   },

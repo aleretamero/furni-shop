@@ -4,6 +4,9 @@ import { CardsInfo } from '@/app/_components/hero/cards-info.component';
 import { WeCreateYourHomeMoreAesteticSection } from '@/app/_components/we-create-your-home-more-aestetic/section.component';
 import { NewIsStoreNowSection } from '@/app/_components/new-is-store-now/section.component';
 import { TheBestFurnitureManuFacturerOfYourChoiceSection } from '@/app/_components/the-best-furniture-manufacturer-of-your-choice/section.component';
+import { WhatPeopleAreSayingAboutUs } from '@/app/_components/what-people-are-saying-about-us/section.component';
+import { Contact } from '@/app/_components/contact/section.component';
+import { Footer } from '@/components/common/footer.components';
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
       <WeCreateYourHomeMoreAesteticSection />
       <NewIsStoreNowSection />
       <TheBestFurnitureManuFacturerOfYourChoiceSection />
+      <WhatPeopleAreSayingAboutUs />
+      <Contact />
+      <Footer />
 
       {/* 
       <section>
@@ -120,105 +126,7 @@ export default function Home() {
           <div></div>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>What people are saying about us</h2>
-          <div>
-            <div>
-              <div>
-                <div>
-                  <Image src="/assets/images/sofa.webp" alt="Sofa" />
-                </div>
-                <div>
-                  <h3>Josh Smith</h3>
-                  <p>Manager of The New York Times</p>
-                </div>
-              </div>
-              <div>
-                <p>
-                  “They are have a perfect touch for make something so
-                  professional ,interest and useful for a lot of people .”
-                </p>
-              </div>
-            </div>
-            <div></div>
-          </div>
-        </div>
-        <div>
-          <Image src="/assets/images/sofa.webp" alt="Sofa" />
-        </div>
-      </section>
-      <section>
-        <div>
-          <h2>Get more discount Off your order</h2>
-          <p>Join our mailing list</p>
-          <form action="">
-            <input type="text" placeholder="Your email address" />
-            <button>Shop Now</button>
-          </form>
-        </div>
-      </section>
-      <footer>
-        <div>
-          <div className="text-4xl font-bold text-white">FurniShop</div>
-          <nav>
-            <button>Instagram</button>
-            <button>Facebook</button>
-            <button>Twitter</button>
-            <button>Github</button>
-            <button>Linkedin</button>
-          </nav>
-        </div>
-        <div />
-        <div>
-          <div>
-            <h3>Our Products</h3>
-            <ul>
-              <li>The Support Suite</li>
-              <li>The Sales Suite</li>
-              <li>Support</li>
-              <li>Guide</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Our Products</h3>
-            <ul>
-              <li>The Support Suite</li>
-              <li>The Sales Suite</li>
-              <li>Support</li>
-              <li>Guide</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Our Products</h3>
-            <ul>
-              <li>The Support Suite</li>
-              <li>The Sales Suite</li>
-              <li>Support</li>
-              <li>Guide</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Our Products</h3>
-            <ul>
-              <li>The Support Suite</li>
-              <li>The Sales Suite</li>
-              <li>Support</li>
-              <li>Guide</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Our Products</h3>
-            <ul>
-              <li>The Support Suite</li>
-              <li>The Sales Suite</li>
-              <li>Support</li>
-              <li>Guide</li>
-            </ul>
-          </div>
-        </div>
-        <div>© NameBrand 2022 - All Rights Reserved</div>
-      </footer> */}
+      */}
     </div>
   );
 }

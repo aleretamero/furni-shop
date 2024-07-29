@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Section } from '@/components/layout/section.component';
 import { Title } from '@/components/common/title.component';
 
-import image from '@/assets/images/img-2.webp';
+import image from '@/assets/images/img-3.webp';
 
 export function TheBestFurnitureManuFacturerOfYourChoiceSection() {
   return (
