@@ -19,7 +19,7 @@ export function Footer() {
         'md:px-[max(calc((100%_-_71.25rem)/2),2rem)]'
       )}
     >
-      <div className="flex justify-between items-center pt-14 pb-12">
+      <div className="flex justify-between items-center flex-wrap gap-5 pt-14 pb-12">
         <Logo />
         <nav className="flex gap-4">
           <Link
@@ -57,7 +57,11 @@ export function Footer() {
 
       <div className="w-full h-[1px] bg-white" />
 
-      <div className={cn('flex flex-wrap pt-16 pb-[3.125rem] gap-8')}>
+      <div
+        className={cn(
+          'w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 place-items-start pt-16 pb-[3.125rem] gap-x-8 gap-y-16'
+        )}
+      >
         <div className="flex-1 whitespace-nowrap">
           <h3 className="text-lg mb-6">Our Products</h3>
           <ul className="flex flex-col gap-5 font-inter">
@@ -68,39 +72,39 @@ export function Footer() {
           </ul>
         </div>
         <div className="flex-1 whitespace-nowrap">
-          <h3 className="text-lg mb-6">Our Products</h3>
+          <h3 className="text-lg mb-6">Top Features</h3>
           <ul className="flex flex-col gap-5 font-inter">
-            <li className="text-sm">The Support Suite</li>
-            <li className="text-sm">The Sales Suite</li>
-            <li className="text-sm">Support</li>
-            <li className="text-sm">Guide</li>
+            <li className="text-sm">Ticketing System</li>
+            <li className="text-sm">Knowledge Base</li>
+            <li className="text-sm">Community Forums</li>
+            <li className="text-sm">Help Desk Software</li>
           </ul>
         </div>
         <div className="flex-1 whitespace-nowrap">
-          <h3 className="text-lg mb-6">Our Products</h3>
+          <h3 className="text-lg mb-6">Resources</h3>
           <ul className="flex flex-col gap-5 font-inter">
-            <li className="text-sm">The Support Suite</li>
-            <li className="text-sm">The Sales Suite</li>
-            <li className="text-sm">Support</li>
-            <li className="text-sm">Guide</li>
+            <li className="text-sm">Product Support</li>
+            <li className="text-sm">Request Demo</li>
+            <li className="text-sm">Library</li>
+            <li className="text-sm">Peoplepower Blog</li>
           </ul>
         </div>
         <div className="flex-1 whitespace-nowrap">
-          <h3 className="text-lg mb-6">Our Products</h3>
+          <h3 className="text-lg mb-6">Company</h3>
           <ul className="flex flex-col gap-5 font-inter">
-            <li className="text-sm">The Support Suite</li>
-            <li className="text-sm">The Sales Suite</li>
-            <li className="text-sm">Support</li>
-            <li className="text-sm">Guide</li>
+            <li className="text-sm">About Us</li>
+            <li className="text-sm">Press</li>
+            <li className="text-sm">Investors</li>
+            <li className="text-sm">Events</li>
           </ul>
         </div>
         <div className="flex-1 whitespace-nowrap">
-          <h3 className="text-lg mb-6">Our Products</h3>
+          <h3 className="text-lg mb-6">Favourite Things</h3>
           <ul className="flex flex-col gap-5 font-inter">
-            <li className="text-sm">The Support Suite</li>
-            <li className="text-sm">The Sales Suite</li>
-            <li className="text-sm">Support</li>
-            <li className="text-sm">Guide</li>
+            <li className="text-sm">For Enterprise</li>
+            <li className="text-sm">For Startups</li>
+            <li className="text-sm">For Benchmark</li>
+            <li className="text-sm">For Small Business</li>
           </ul>
         </div>
       </div>
