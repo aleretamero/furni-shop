@@ -1,4 +1,4 @@
-# Projeto OneBitCode Hackathon - Onebitmusic
+# Projeto Landing Page Furni-Shop
 
 ![preview](./public/preview.webp)
 
