@@ -4,7 +4,7 @@ import { FaCheckCircle } from 'react-icons/fa';
 import { Section } from '@/components/layout/section.component';
 import { Title } from '@/components/common/title.component';
 
-export function WeCreateYourHomeMoreAesteticSection() {
+export function SectionOne() {
   return (
     <Section className="flex-col-reverse items-start md:items-center lg:flex-row gap-[6.25rem] py-[3.125rem] md:py-[4.625rem]">
       <div className="flex-1 xl:col-span-6 max-w-[34.625rem] w-full aspect-[1/0.79] flex justify-center items-center rounded overflow-hidden">

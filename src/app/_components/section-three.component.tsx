@@ -5,7 +5,7 @@ import { Title } from '@/components/common/title.component';
 
 import image from '@/assets/images/img-2.webp';
 
-export function TheBestFurnitureManuFacturerOfYourChoiceSection() {
+export function SectionThree() {
   return (
     <Section className="flex-col items-start md:items-center lg:flex-row gap-[3.125rem] md:gap-[6.25rem] py-[3.125rem] md:py-24">
       <div className="flex-1 flex flex-col justify-center">

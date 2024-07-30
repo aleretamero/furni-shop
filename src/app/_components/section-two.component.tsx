@@ -16,7 +16,7 @@ const data = [
   { image: lighting, title: 'Lighting' },
 ];
 
-export function NewIsStoreNowSection() {
+export function SectionTwo() {
   return (
     <Section
       className="!pr-0 py-[3.125rem] md:py-[4.375rem] flex-col md:flex-row gap-[4.375rem] overflow-x-hidden"

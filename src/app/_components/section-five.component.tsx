@@ -74,7 +74,7 @@ const productsData = [
   },
 ];
 
-export function AllProducts() {
+export function SectionFive() {
   return (
     <Section autoLayout className="py-[4.375rem]">
       <div

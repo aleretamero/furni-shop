@@ -1,13 +1,13 @@
 import { Header } from '@/components/common/header.component';
-import { Hero } from '@/app/_components/hero/hero.component';
-import { CardsInfo } from '@/app/_components/hero/cards-info.component';
-import { WeCreateYourHomeMoreAesteticSection } from '@/app/_components/we-create-your-home-more-aestetic/section.component';
-import { NewIsStoreNowSection } from '@/app/_components/new-is-store-now/section.component';
-import { TheBestFurnitureManuFacturerOfYourChoiceSection } from '@/app/_components/the-best-furniture-manufacturer-of-your-choice/section.component';
-import { WhatPeopleAreSayingAboutUs } from '@/app/_components/what-people-are-saying-about-us/section.component';
-import { Contact } from '@/app/_components/contact/section.component';
+import { Hero } from '@/app/_components/hero.component';
+import { CardsInfo } from '@/app/_components/cards-info.component';
+import { SectionOne } from '@/app/_components/section-one.component';
+import { SectionTwo } from '@/app/_components/section-two.component';
+import { SectionThree } from '@/app/_components/section-three.component';
+import { SectionFour } from '@/app/_components/section-four.component';
+import { SectionSix } from '@/app/_components/section-six.component';
 import { Footer } from '@/components/common/footer.components';
-import { AllProducts } from '@/app/_components/all-products.components';
+import { SectionFive } from '@/app/_components/section-five.component';
 
 export default function Home() {
   return (
@@ -17,12 +17,12 @@ export default function Home() {
         <Hero />
         <CardsInfo className="z-[2] relative -top-24" />
       </div>
-      <WeCreateYourHomeMoreAesteticSection />
-      <NewIsStoreNowSection />
-      <TheBestFurnitureManuFacturerOfYourChoiceSection />
-      <AllProducts />
-      <WhatPeopleAreSayingAboutUs />
-      <Contact />
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFive />
+      <SectionFour />
+      <SectionSix />
       <Footer />
     </div>
   );

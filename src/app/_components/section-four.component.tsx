@@ -8,7 +8,7 @@ import { Section } from '@/components/layout/section.component';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa6';
 import { cn } from '@/lib/utils';
 
-export function WhatPeopleAreSayingAboutUs() {
+export function SectionFour() {
   return (
     <Section className="py-[4.375rem]">
       <div

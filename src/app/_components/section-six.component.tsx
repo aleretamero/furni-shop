@@ -3,7 +3,7 @@ import { Section } from '@/components/layout/section.component';
 import { Button } from '@/components/ui/button.component';
 import { cn } from '@/lib/utils';
 
-export function Contact() {
+export function SectionSix() {
   return (
     <Section
       className={cn(
