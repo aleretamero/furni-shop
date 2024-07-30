@@ -1,8 +1,6 @@
 import Image from 'next/image';
-
 import { Section } from '@/components/layout/section.component';
 import { Title } from '@/components/common/title.component';
-
 import image from '@/assets/images/img-2.webp';
 
 export function SectionThree() {
