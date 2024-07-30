@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto OneBitCode Hackathon - Onebitmusic
 
-## Getting Started
+![preview](./public/preview.webp)
 
-First, run the development server:
+## 💭 Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Essa Landing Page foi desenvolvida como treinamento de criação de interfaces em NextJs e Tailwindcss.
+
+- [Acesse o Figma](https://www.figma.com/design/FyuEA0LYx6qNwi7hXOr8y8/FurniShop?node-id=0-1&t=0Ec9OtInlOqN3VZN-0)
+
+## 🧠 Funcionalidades
+
+ ✔️ **Layout Responsivo:** A página é otimizada para ser visualizada em diferentes dispositivos e tamanhos de tela, garantindo uma experiência de usuário consistente.
+
+ ✔️ **Design Atraente:** O design foi cuidadosamente implementado para corresponder às especificações do Figma, com atenção aos detalhes visuais, tipografia e espaçamento.
+
+## 🖥️ Tecnologias Utilizadas
+
+- [React](https://react.dev) - biblioteca para interfaces de usuário
+- [NextJS](https://nextjs.org) - framework react para aplicações web 
+- [TypeScript](https://www.typescriptlang.org) - superset, linguagem baseada em javascript
+- [Tailwindcss](https://tailwindcss.com) - framework css de classes utilitárias
+
+## 📂 Esquema de pastas
+```
+./src
+├── app
+│   └── _components
+├── assets
+│   └── images
+├── components
+│   ├── common
+│   ├── layout
+│   └── ui
+├── hooks
+└── lib
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📝 Resumo da Estrutura
+- **app**: Componentes e páginas específicas da aplicação.
+  - **_components**: Componentes internos da aplicação.
+- **assets**: Contém as páginas da aplicação.
+- **styles**: Recursos estáticos da aplicação.
+  - **images**: Imagens utilizadas na aplicação.
+- **components**: Componentes reutilizáveis.
+  - **common**: Componentes comuns utilizados em várias partes da aplicação.
+  - **layout**: Componentes relacionados ao layout da aplicação, como cabeçalhos e rodapés.
+  - **ui**: Componentes de interface de usuário, como botões e formulários.
+- **hooks**: Hooks personalizados utilizados na aplicação.
+- **lib**: Bibliotecas e utilitários compartilhados na aplicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Modificando o projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Siga as seguintes instruções para instalar e poder modificar o projeto em sua máquina
 
-## Learn More
+### 📋 Pré-requisitos:
 
-To learn more about Next.js, take a look at the following resources:
+Para baixar, executar e modificar o projeto, você precisa ter instalado em sua máquina: 
+* [Node](https://nodejs.org/en)
+* Um gerenciador de pacotes, como o [Npm](https://www.npmjs.com)
+* [Git](https://git-scm.com/downloads)
+* Editor de código ou IDE, como o [VSCode](https://code.visualstudio.com/Download)
+  
+### 🔧 Instalação e execução
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone o repositório
+```bash
+git clone https://github.com/aleretamero/furni-shop.git
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Acesse a pasta do projeto
+```bash
+cd furni-shop
+```
 
-## Deploy on Vercel
+3. Instale as dependências
+```bash
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Inicie o servidor de desenvolvimento do projeto
+```bash
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Obs: o servidor iniciará na porta 3000 - acesse por: <http://localhost:3000/>
+
+## Colaboradores 🤝🤝
+
+| Foto                                                       | Nome                                                 |
+| ---------------------------------------------------------- | ---------------------------------------------------- |
+| <img src="https://github.com/aleretamero.png" width="100"> | [Alexandre Retamero](https://github.com/aleretamero) |
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
