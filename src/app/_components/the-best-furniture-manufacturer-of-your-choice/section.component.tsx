@@ -3,11 +3,11 @@ import Image from 'next/image';
 import { Section } from '@/components/layout/section.component';
 import { Title } from '@/components/common/title.component';
 
-import image from '@/assets/images/img-3.webp';
+import image from '@/assets/images/img-2.webp';
 
 export function TheBestFurnitureManuFacturerOfYourChoiceSection() {
   return (
-    <Section className="flex-col items-center lg:flex-row gap-[6.25rem] py-24">
+    <Section className="flex-col items-start md:items-center lg:flex-row gap-[3.125rem] md:gap-[6.25rem] py-[3.125rem] md:py-24">
       <div className="flex-1 flex flex-col justify-center">
         <Title className="max-w-[21.25rem] sm:max-w-[34.875rem] mt-[2.5625rem] mb-[2.1875rem]">
           The Best Furniture Manufacturer of your choice

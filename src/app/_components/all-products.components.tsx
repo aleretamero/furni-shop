@@ -89,7 +89,7 @@ export function AllProducts() {
         </p>
       </div>
       <div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5 md:gap-7 mb-[3.125rem]">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-5 auto-rows-max md:gap-7 mb-[3.125rem]">
           {productsData.map((product, index) => (
             <ProductCard
               key={index}
@@ -142,7 +142,7 @@ function ProductCard({
         </button>
       </div>
       <div>
-        <h3 className="text-xl leading-[130%] text-primary font-semibold mb-2">
+        <h3 className="text-xl leading-[130%] text-primary font-semibold mb-2 line-clamp-1">
           {name}
         </h3>
         <span className="leading-[165%] text-primary mr-4">

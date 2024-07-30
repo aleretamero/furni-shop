@@ -8,8 +8,8 @@ body {
 
 @layer utilities {
   .auto-layout {
-    padding-left: max(calc((100% - 72.5rem) / 2), 0.5rem);
-    padding-right: max(calc((100% - 72.5rem) / 2), 0.5rem);
+    padding-left: max(calc((100% - 72.5rem) / 2), 1rem);
+    padding-right: max(calc((100% - 72.5rem) / 2), 1rem);
 
     @screen sm {
       padding-left: max(calc((100% - 72.5rem) / 2), 1rem);

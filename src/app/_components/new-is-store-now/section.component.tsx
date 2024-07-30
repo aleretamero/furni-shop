@@ -18,15 +18,25 @@ const data = [
 
 export function NewIsStoreNowSection() {
   return (
-    <Section className="!pr-0 py-[4.375rem] flex-row gap-[4.375rem] overflow-x-hidden">
-      <div className="flex-shrink-0 w-[15.3125rem] flex flex-col">
-        <Title className="mt-[1.875rem] mb-[5.5625rem]">New In Store Now</Title>
-        <p className="text-primary leading-[170%] spa pb-12">
+    <Section
+      className="!pr-0 py-[3.125rem] md:py-[4.375rem] flex-col md:flex-row gap-[4.375rem] overflow-x-hidden"
+      autoLayout
+    >
+      <div
+        className="
+          flex-shrink-0 w-full md:w-[15.3125rem] flex flex-row md:flex-col
+          justify-start items-center md:items-start gap-5 md:gap-0
+        "
+      >
+        <Title className="md:mt-[1.875rem] md:mb-[5.5625rem] max-w-[7.75rem]">
+          New In Store Now
+        </Title>
+        <p className="text-sm sm:text-base text-primary leading-[170%] md:pb-12 max-w-[12.875rem]">
           Get the latest items immediately with promo prices
         </p>
         <Link
           href="#"
-          className="inline-flex justify-start items-center gap-[0.625rem]"
+          className="hidden md:inline-flex justify-start items-center gap-[0.625rem]"
         >
           <span className="text-primary font-normal text-base tracking-[1%] border-b border-primary leading-4">
             Check All
@@ -38,7 +48,7 @@ export function NewIsStoreNowSection() {
         {data.map((item) => (
           <div
             key={item.title}
-            className="relative rounded overflow-hidden w-[16.2625rem]"
+            className="relative rounded overflow-hidden w-[16.2625rem] min-w-[12.375rem]"
           >
             <Image src={item.image} objectFit="cover" alt={item.title} />
             <span

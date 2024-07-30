@@ -1,7 +1,7 @@
 'use client';
 
 import Image, { StaticImageData } from 'next/image';
-import image from '@/assets/images/img-2.webp';
+import image from '@/assets/images/img-3.webp';
 import avatar from '@/assets/images/avatar-1.webp';
 import { Title } from '@/components/common/title.component';
 import { Section } from '@/components/layout/section.component';

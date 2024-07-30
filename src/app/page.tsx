@@ -8,7 +8,6 @@ import { WhatPeopleAreSayingAboutUs } from '@/app/_components/what-people-are-sa
 import { Contact } from '@/app/_components/contact/section.component';
 import { Footer } from '@/components/common/footer.components';
 import { AllProducts } from '@/app/_components/all-products.components';
-import { Section } from '@/components/layout/section.component';
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       <Header />
       <div className="w-full min-h-screen flex flex-col">
         <Hero />
-
         <CardsInfo className="z-[2] relative -top-24" />
       </div>
       <WeCreateYourHomeMoreAesteticSection />
