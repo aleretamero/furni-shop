@@ -1,4 +1,4 @@
-# Projeto OneBitCode Hackathon - Onebitmusic
+# Projeto Landing Page Furni-Shop
 
 ![preview](./public/preview.webp)
 
@@ -65,7 +65,7 @@ Para baixar, executar e modificar o projeto, você precisa ter instalado em sua 
 
 1. Clone o repositório
 ```bash
-git clone https://github.com/aleretamero/furni-shop.git
+git clone git@github.com:aleretamero/furni-shop.git
 ```
 
 2. Acesse a pasta do projeto
