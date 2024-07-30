@@ -24,7 +24,7 @@ const productsData = [
     discountPrice: '$82.00',
   },
   {
-    src: imgProduct2, 
+    src: imgProduct2,
     alt: 'Wood Chair',
     name: 'Wood Chair',
     price: '$50.00',
@@ -127,7 +127,7 @@ function ProductCard({
       <div
         className={cn(
           'relative max-w-[17.8125rem] w-full max-h-[18.25rem] h-full overflow-hidden',
-          'rounded-[20px] border border-black/10 justify-center items-center',
+          'rounded-[20px] border border-black/10 justify-center items-center'
         )}
       >
         <Image src={src} width={258} height={292} alt={alt} />
@@ -191,6 +191,7 @@ function PaginationControlButtons({
       <div className="flex gap-4">
         {Array.from({ length: 5 }).map((_, index) => (
           <button
+            key={index}
             className={cn(
               'w-[10px] h-[10px] border border-primary bg-transparent rounded-full',
               {
