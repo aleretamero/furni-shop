@@ -1,6 +1,5 @@
 import { randomUUID } from 'node:crypto';
 import { cn } from '@/lib/utils';
-import { CardInfo } from '@/app/_components/hero/card-info.component';
 
 const data = [
   {
@@ -31,14 +30,7 @@ interface CardsInfoProps {
 
 export function CardsInfo({ className }: CardsInfoProps) {
   return (
-    <div
-      className={cn(
-        'px-[max(calc((100%_-_77.5rem)/2),0.5rem)]',
-        'sm:px-[max(calc((100%_-_77.5rem)/2),1rem)]',
-        'md:px-[max(calc((100%_-_77.5rem)/2),2rem)]',
-        className
-      )}
-    >
+    <div className={cn('auto-layout', className)}>
       <div
         className={cn(
           'w-full rounded-xl bg-secondary py-10',
@@ -47,7 +39,7 @@ export function CardsInfo({ className }: CardsInfoProps) {
         )}
       >
         {data.map((item, index) => (
-          <CardInfo
+          <Card
             key={item.id}
             title={item.title}
             value={item.value}
@@ -58,6 +50,32 @@ export function CardsInfo({ className }: CardsInfoProps) {
           />
         ))}
       </div>
+    </div>
+  );
+}
+
+interface CardProps {
+  title: string;
+  value: string;
+  className?: string;
+}
+
+function Card({ title, value, className }: CardProps) {
+  return (
+    <div
+      className={cn(
+        'max-w-[18.875rem] w-full h-[3.75rem] md:h-[6.25rem] overflow-hidden',
+        'flex-shrink-0 text-white border-white',
+        'flex flex-col items-center justify-center gap-1',
+        className
+      )}
+    >
+      <span className="text-2xl md:text-[2.5rem] leading-[120%] font-semibold">
+        {value}
+      </span>
+      <span className="max-w-28 w-full text-sm md:text-xl text-center leading-[130%] font-normal tracking-[1%]">
+        {title}
+      </span>
     </div>
   );
 }
